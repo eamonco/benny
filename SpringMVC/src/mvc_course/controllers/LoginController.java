@@ -67,4 +67,9 @@ public class LoginController {
 			return "redirect:" + loginType;
 			
 		}
+		
+		@RequestMapping(value="hr.mvc")
+		public String hrPage(){
+			return "hr";
+		}
 	}

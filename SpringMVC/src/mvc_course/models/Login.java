@@ -14,7 +14,7 @@ public class Login {
 	public String getUsername() {
 		return username;
 	}
-	public void setFirstName(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
 	public String getPassword() {
