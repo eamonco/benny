@@ -34,10 +34,10 @@ public class LoginController {
 		public String logincheck(@ModelAttribute("login") Login login ){
 			int id;
 			String loginType;
-			if((login.getUsername() == "1" ) && (login.getPassword() == "1")){
+			if((login.getUsername().equals("1") && (login.getPassword().equals("1")))){
 				id = 1;
 				
-			}else if((login.getUsername() == "2" ) && (login.getPassword() == "2")){
+			}else if((login.getUsername().equals("2" ) && (login.getPassword().equals("2")))){
 				
 					id = 2;
 				}
