@@ -1,3 +1,4 @@
+SET FOREIGN_KEY_CHECKS=0;
 DROP DATABASE IF EXISTS Connect4;
 CREATE DATABASE Connect4;
 USE Connect4;
@@ -116,7 +117,7 @@ GRANT SELECT ON Connect4.Sales TO jdbcuser@localhost;
 GRANT SELECT ON Connect4.Assignments TO jdbcuser@localhost;
 GRANT SELECT ON Connect4.Projects TO jdbcuser@localhost;
 
-
+SET FOREIGN_KEY_CHECKS=1;
 
 
 
