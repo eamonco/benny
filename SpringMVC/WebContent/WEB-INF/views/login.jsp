@@ -8,6 +8,12 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Login</title>
+		<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+          
 	</head>
 	<body>
 		<h1>Login</h1>
@@ -15,13 +21,11 @@
 				<form  class="col s12" method="post" name="employee" action="loginForm.mvc">
 		  			<div class="row">
        		 			<div class="input-field col s6">
-        					<label for="username">User name</label>
           					<input placeholder="User Name" name="username" type="text" class="validate">
         				</div>
       				</div>
       				<div class="row">
         				<div class="input-field col s6">
-        					<label for="password">Password</label>
           					<input placeholder="Password" name="password" type="password" class="validate">
         				</div>
       				</div>
