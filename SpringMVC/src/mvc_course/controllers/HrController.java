@@ -26,7 +26,20 @@ public class HrController {
 	private DataSource dataSource;
 	
 	@RequestMapping(value="employee.mvc")
-	public String addEmployee(@ModelAttribute("employee") Employee employee ){
+	public String addEmployee(){
+		
+		return "addEmployee";
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	@RequestMapping(value="employeeForm.mvc")
+	public String addEmployee(@ModelAttribute("employee2") Employee employee ){
 		try{
 			Connection c = dataSource.getConnection();
 			Statement s = c.createStatement();
@@ -66,7 +79,7 @@ public class HrController {
 			} catch (Exception e){
 				System.out.println(e.getMessage());
 		}
-		return "redirect:hr.mvc";
+		return "hr.mvc";
 		
 		
 	
