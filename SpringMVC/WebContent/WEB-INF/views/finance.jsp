@@ -7,6 +7,6 @@
 <title>Finance Home</title>
 </head>
 <body>
-<input type="submit" text="Sales Report" action="salesReport.mvc" />
+<input type="submit" text="Sales Report" action="financeReport.mvc" />
 </body>
 </html>
