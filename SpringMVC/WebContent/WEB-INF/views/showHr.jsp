@@ -15,14 +15,18 @@
           
 </head>
 <body>
-Students
-<ul>
-	<c:forEach items="${employeeList}" var="student">
-		<li>
-			${employee.firstName} ${employee.lastName}
-		</li>
-	</c:forEach>
-
+<h1>Employees per BU</h1>
+<ul>     
+	<table>
+		<tr><th>BU</th><th>Employee</th></tr>
+		<c:forEach var="row" items="${rows}">
+		<tr>
+			<td><c:out value="${row[0]}"/></td>
+			<td><c:out value="${row[1]}"/></td>
+		</tr>
+		</c:forEach>
+</table>
+     
 	<a href="addEmployee.mvc" >Add another employee</a>
 </ul>
 </body>

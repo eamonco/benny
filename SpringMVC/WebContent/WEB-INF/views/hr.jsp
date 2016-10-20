@@ -3,11 +3,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+
+<title>HR Menu</title>
+
 </head>
 <body>
-
-hello
+	<button type="button" onclick=employee.mvc>New Employee</button>
+	<button type="button" onclick=saleEmployee.mvc>New Sales Employee</button>
+	<button type="button" onclick=hrReport.mvc>Employees per BU</button>
+	<button type="button" onclick=Login.mvc>Logout</button>
 </body>
 </html>

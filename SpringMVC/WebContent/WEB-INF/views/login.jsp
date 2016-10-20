@@ -31,7 +31,6 @@
       				</div>
 		<input type="submit" text="Login" />
 	</form>
-	<a href="employeeLists.mvc">Go Back</a>
 	</div>
 	</body>
 </html>
