@@ -33,7 +33,7 @@
 		
 		
 			<div>
-				<form  class="col s12" method="post" name="employee" action="loginForm.mvc">
+				<form  class="col s12" method="post" name="employee" action="employee.mvc">
 		  			<div class="row">
        		 			<div class="input-field col s6">
           					<input placeholder="Forename" name="forename" type="text" class="validate">
