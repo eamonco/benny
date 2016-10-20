@@ -1,5 +1,0 @@
-package mvc_data;
-
-public interface IWorldMapper {
-
-}
