@@ -14,6 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import mvc_course.models.Login;
 import mvc_course.models.Student;
 
 
@@ -32,10 +33,11 @@ public class LoginController {
 		@RequestMapping(value="loginForm.mvc")
 		public String logincheck(@ModelAttribute("login") Login login ){
 			int id;
-			if((login.getUsername == 1 ) && (login.getPassword == 1)){
+			String loginType;
+			if((login.getUsername() == "1" ) && (login.getPassword() == "1")){
 				id = 1;
 				
-			}else if((login.getUsername == 2 ) && (login.getPassword == 2)){
+			}else if((login.getUsername() == "2" ) && (login.getPassword() == "2")){
 				
 					id = 2;
 				}
@@ -48,20 +50,21 @@ public class LoginController {
 			
 			case 1:
 				
-				return "hr";
+				loginType = "hr";
 				break;
 			
 			case 2:
 				
-				return "finance";
+				loginType = "finance";
 				break;
 			
 				
 			default:
 				
-				return "loginerror";
+				loginType = "loginerror";
 					
 			}
+			return loginType;
 			
 		}
 	}
