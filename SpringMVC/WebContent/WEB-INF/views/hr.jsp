@@ -14,7 +14,9 @@
 
 </head>
 <body>
-	<button type="button" onclick=employee.mvc>New Employee</button>
+	<form  class="col s12" method="post" name="employee" action="employee.mvc">
+		<button type="button" <a href="employee.mvc">NEW EMPLOYEE</a>>New Employee</button>
+	</form>
 	<button type="button" onclick=saleEmployee.mvc>New Sales Employee</button>
 	<button type="button" onclick=hrReport.mvc>Employees per BU</button>
 	<button type="button" onclick=Login.mvc>Logout</button>
