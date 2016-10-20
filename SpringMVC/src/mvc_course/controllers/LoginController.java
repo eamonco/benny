@@ -37,7 +37,7 @@ public class LoginController {
 			if((login.getUsername().equals("1") && (login.getPassword().equals("1")))){
 				id = 1;
 				
-			}else if((login.getUsername().equals("2" ) && (login.getPassword().equals("2")))){
+			}else if((login.getUsername().equals("2") && (login.getPassword().equals("2")))){
 				
 					id = 2;
 				}
@@ -50,21 +50,21 @@ public class LoginController {
 			
 			case 1:
 				
-				loginType = "hr";
+				loginType = "hr.mvc";
 				break;
 			
 			case 2:
 				
-				loginType = "finance";
+				loginType = "finance.mvc";
 				break;
 			
 				
 			default:
 				
-				loginType = "loginerror";
+				loginType = "loginerror.mvc";
 					
 			}
-			return loginType;
+			return "redirect:" + loginType;
 			
 		}
 	}
