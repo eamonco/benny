@@ -109,3 +109,15 @@ CREATE TABLE `Assignments` (
     insert into Projects (projectName, departmentId) values ('Bens project', 1);
     insert into Projects (projectName, departmentId) values ('Bens project2', 2);
     insert into Projects (projectName, departmentId) values ('Bens project2', 3);
+
+GRANT SELECT ON Connect4.Departments TO jdbcuser@localhost;
+GRANT SELECT ON Connect4.Employees TO jdbcuser@localhost;
+GRANT SELECT ON Connect4.Sales TO jdbcuser@localhost;
+GRANT SELECT ON Connect4.Assignments TO jdbcuser@localhost;
+GRANT SELECT ON Connect4.Projects TO jdbcuser@localhost;
+
+
+
+
+
+
