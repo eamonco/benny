@@ -1,2 +1,2 @@
 # benny
-All thins Ben
+All things Ben
