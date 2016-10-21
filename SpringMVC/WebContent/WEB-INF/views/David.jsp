@@ -23,7 +23,7 @@ div {
 <nav class="teal lighten-1" style="display:table;" role="navigation">
 
 <div>
-    <img src="https://cdn1.kainos.com/wp-content/uploads/2013/12/david-thumb1.jpg?03cdd2" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
+    <img src="https://cdn1.kainos.com/wp-content/uploads/2013/12/david-thumb1.jpg?03cdd2" width="50" height="50" alt="" />
 </div>
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Ta Da!
      
