@@ -20,7 +20,7 @@
 	<nav class="teal lighten-1" style="display:table;" role="navigation">
 
 
-    <img src="http://www.freeiconspng.com/uploads/register-secure-security-user-login-icon--7.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
+    <img src="http://www.freeiconspng.com/uploads/register-secure-security-user-login-icon--7.png" style="-webkit-filter: invert(100%); filter: brightness(0) invert(1);" width="50" height="50" alt="" />
 
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Welcome to the Login Menu
      
