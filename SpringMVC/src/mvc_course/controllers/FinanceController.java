@@ -25,7 +25,7 @@ public class FinanceController {
 		try{
 			Connection c = dataSource.getConnection();
 			Statement s = c.createStatement();
-			String sql = "Select Employees.employeeNo, ifnull(concat(Employees.forename, Employees.surname), 'No Employee') as 'Employee', ifnull((Employees.startingSalary + (Sales.totalSales / 100 * Sales.commissionRate)), Employees.StartingSalary) as 'GrossPay' from Employees LEFT JOIN Sales On Employees.employeeNo = Sales.employeeNo";
+			String sql = "Select Employees.employeeNo, ifnull(concat(Employees.forename,SPACE(1),Employees.surname), 'No Employee') as 'Employee', ifnull((Employees.startingSalary + (Sales.totalSales / 100 * Sales.commissionRate)), Employees.StartingSalary) as 'GrossPay' from Employees LEFT JOIN Sales On Employees.employeeNo = Sales.employeeNo";
 			ResultSet rs = s.executeQuery(sql);
 			List<String[]> rows = new ArrayList<String[]>();
 			
