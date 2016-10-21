@@ -23,7 +23,7 @@
      
      </span>
   </nav>
-<img src = "WebContent/dancingdave_360.gif.png.gif" >
+<img src = "http://i.giphy.com/3oz8xsJgk4zNtmyHRe.gif" >
 <form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="login.mvc">
 		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
 	</form>

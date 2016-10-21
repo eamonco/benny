@@ -47,8 +47,12 @@ public class LoginController {
 				
 				id = 4;
 				
+			}else if((login.getUsername().equals("david") && (login.getPassword().equals("david")))){
+				
+				id = 5;
+				
 			}else{
-				id=5;
+				id=6;
 			}
 			
 			switch(id){
@@ -72,6 +76,13 @@ case 4:
 	
 	loginType = "talentmanager.mvc";
 	break;
+	
+case 5:
+	
+	loginType = "easter.mvc";
+	break;
+	
+			
 			
 				
 			default:
@@ -90,6 +101,10 @@ case 4:
 			@RequestMapping(value="error.mvc")
 			public String errorPage(){
 				return "loginError";
+			}
+			@RequestMapping(value="easter.mvc")
+			public String davidPage(){
+				return "David";
 			}
 		
 	}
