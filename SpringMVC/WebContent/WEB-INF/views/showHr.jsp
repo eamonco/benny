@@ -6,12 +6,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Employee List</title>
+<title>Employee Per BU</title>
 <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+       
+<style>
+div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+</style>     
           
 </head>
 <body>
@@ -21,9 +28,9 @@
 
 <nav class="teal lighten-1" style="display:table;" role="navigation">
 
-
-    <img src="https://cdn3.iconfinder.com/data/icons/business-people-2/512/Business_Group-512.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
-
+<div>
+    <img src="https://cdn3.iconfinder.com/data/icons/business-people-2/512/Business_Group-512.png" style="-webkit-filter: invert(100%); filter: brightness(0) invert(1); margin-left: 10px;" width="50" height="50" alt="Peeps"  />
+</div>
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Employees Per BU
      
      </span>
