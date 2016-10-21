@@ -14,19 +14,25 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
           
+    <style>
+#image {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+</style>
+          
 	</head>
 	<body>
 	
 	<nav class="teal lighten-1" style="display:table;" role="navigation">
 
 
-    <img src="http://www.freeiconspng.com/uploads/register-secure-security-user-login-icon--7.png" style="-webkit-filter: invert(100%); filter: brightness(0) invert(1);" width="50" height="50" alt="" />
+    <img id = "image" src="http://www.freeiconspng.com/uploads/register-secure-security-user-login-icon--7.png" style="-webkit-filter: invert(100%); filter: brightness(0) invert(1);" width="50" height="50" alt="" />
 
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Welcome to the Login Menu
      
      </span>
   </nav>
-
 			<div>
 				<form  class="col s12" method="post" name="employee" style="margin-bottom:0;" action="loginForm.mvc">
 		  			<div class="row">
