@@ -15,13 +15,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Sales Manager Report Report</title>
+   <style>
+div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+</style>
 </head>
 <body>
 <nav class="teal lighten-1" style="display:table;" role="navigation">
 
-
+<div>
     <img src="http://image.flaticon.com/icons/png/512/27/27825.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
-
+</div>
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Sales Employee with the highest sales total for the current period
      
      </span>
@@ -36,5 +42,11 @@
 </tr>
 </c:forEach>
 </table>
+
+<form  class="col s12" method="post"  style="padding: 5px 10px;name="sales" action="login.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
+	</form>
+
+
 </body>
 </html>

@@ -76,7 +76,7 @@ case 4:
 				
 			default:
 				
-				loginType = "loginerror.mvc";
+				loginType = "error.mvc";
 					
 			}
 			return "redirect:" + loginType;
@@ -87,4 +87,9 @@ case 4:
 		public String hrPage(){
 			return "hr";
 		}
+			@RequestMapping(value="error.mvc")
+			public String errorPage(){
+				return "loginError";
+			}
+		
 	}
