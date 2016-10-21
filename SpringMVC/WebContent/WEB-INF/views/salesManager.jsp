@@ -36,5 +36,11 @@
 </tr>
 </c:forEach>
 </table>
+
+<form  class="col s12" method="post"  style="padding: 5px 10px;name="sales" action="login.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
+	</form>
+
+
 </body>
 </html>
