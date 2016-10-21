@@ -34,16 +34,21 @@ public class LoginController {
 		public String logincheck(@ModelAttribute("login") Login login ){
 			int id;
 			String loginType;
-			if((login.getUsername().equals("1") && (login.getPassword().equals("1")))){
+			if((login.getUsername().equals("hr") && (login.getPassword().equals("hr")))){
 				id = 1;
 				
-			}else if((login.getUsername().equals("2") && (login.getPassword().equals("2")))){
+			}else if((login.getUsername().equals("finance") && (login.getPassword().equals("finance")))){
 				
 					id = 2;
-				}
-			else{
-				id = 3;
+				}else if((login.getUsername().equals("salesmanager") && (login.getPassword().equals("salesmanager")))){
 				
+				id = 3;
+			}else if((login.getUsername().equals("talentmanager") && (login.getPassword().equals("talentmanager")))){
+				
+				id = 4;
+				
+			}else{
+				id=5;
 			}
 			
 			switch(id){
@@ -57,6 +62,16 @@ public class LoginController {
 				
 				loginType = "finance.mvc";
 				break;
+				
+case 3:
+				
+				loginType = "salesmanager.mvc";
+				break;
+				
+case 4:
+	
+	loginType = "talentmanager.mvc";
+	break;
 			
 				
 			default:

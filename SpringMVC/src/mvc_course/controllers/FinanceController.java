@@ -6,12 +6,22 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@Controller
 public class FinanceController {
-	@RequestMapping(value="financeReport.mvc")
-	public String cityList(Model m){
+	
+
+	@Autowired
+	private DataSource dataSource;
+	
+	@RequestMapping(value="finance.mvc")
+	public String grossPay(Model m){
 		try{
 			Connection c = dataSource.getConnection();
 			Statement s = c.createStatement();
@@ -21,9 +31,8 @@ public class FinanceController {
 			
 			while(rs.next()){
 				String[] row = {
-						rs.getString(1),
 						rs.getString(2),
-						rs.getString(3)  };
+						rs.getString(3)};
 				rows.add(row);
 				}
 			m.addAttribute("rows", rows);

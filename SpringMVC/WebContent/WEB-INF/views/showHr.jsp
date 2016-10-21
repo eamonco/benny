@@ -17,8 +17,9 @@
 <body>
 <h1>Employees per BU</h1>
 <ul>     
-	<table>
-		<tr><th>BU</th><th>Employee</th></tr>
+	<table class="striped">
+	<thead>
+		<tr><th data-field="BU">BU</th><th data-field="Number of Employees">Number of Employees</th></tr></thead>
 		<c:forEach var="row" items="${rows}">
 		<tr>
 			<td><c:out value="${row[0]}"/></td>

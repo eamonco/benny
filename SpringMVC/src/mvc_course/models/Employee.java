@@ -5,7 +5,25 @@ import java.util.Set;
 
 public class Employee {
 	
-	 int employeeNo;
+	public Employee(){};
+	
+	 public Employee(String forename, String surname, String addressLine1, String addressLine2, String town,
+			String county, String postcode, int departmentId, String bankNo, double startingSalary, String nino) {
+		super();
+		this.forename = forename;
+		this.surname = surname;
+		this.addressLine1 = addressLine1;
+		this.addressLine2 = addressLine2;
+		this.town = town;
+		this.county = county;
+		this.postcode = postcode;
+		this.departmentId = departmentId;
+		this.bankNo = bankNo;
+		this.startingSalary = startingSalary;
+		this.nino = nino;
+	}
+
+	int employeeNo;
      String forename;
      String surname;
      String addressLine1;

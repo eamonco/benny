@@ -14,11 +14,37 @@
 
 </head>
 <body>
-	<form  class="col s12" method="post" name="employee" action="employee.mvc">
-		<button type="button" <a href="employee.mvc">NEW EMPLOYEE</a>>New Employee</button>
+
+<nav class="teal lighten-1" style="display:table;" role="navigation">
+
+
+    <img src="http://image.flaticon.com/icons/png/512/27/27825.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
+
+    <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Welcome to the HR Menu
+     
+     </span>
+  </nav>
+
+
+	<form method="post" style="padding: 5px 10px; padding-top: 10px; name="employee" action="employee.mvc">
+		<input type="submit" class="waves-effect waves-light btn"  value="New Employee"/>
 	</form>
-	<button type="button" onclick=saleEmployee.mvc>New Sales Employee</button>
-	<button type="button" onclick=hrReport.mvc>Employees per BU</button>
-	<button type="button" onclick=Login.mvc>Logout</button>
+	
+	
+	<form  class="col s12" method="post" style="padding: 5px 10px; name="employee" action="salesEmployee.mvc">
+		<input type="submit" class="waves-effect waves-light btn" value="New Sales Employee"/>
+	</form>
+	
+	
+	<form  class="col s12" method="post" style="padding: 5px 10px; name="employee" action="hrReport.mvc">
+		<input type="submit" class="waves-effect waves-light btn"  value="Employees per BU"/>
+	</form>
+	<form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="login.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
+	</form>
+	
+
+            
+	
 </body>
 </html>

@@ -11,12 +11,11 @@
 </head>
 <body>
 <table>
-<tr><th>City</th><th>District</th><th>Population</th></tr>
+<tr><th>Employee</th><th>Gross Pay</th></tr>
 <c:forEach var="row" items="${rows}">
 <tr>
 <td><c:out value="${row[0]}"/></td>
 <td><c:out value="${row[1]}"/></td>
-<td><c:out value="${row[2]}"/></td>
 </tr>
 </c:forEach>
 </table>
