@@ -34,7 +34,7 @@ public class ManagerController {
 		try{
 			Connection c = dataSource.getConnection();
 			Statement s = c.createStatement();
-			String sql = "select concat(Employees.forename, Employees.surname) as 'Name' , Sales.totalSales as 'Total Sales' from Sales join Employees on Sales.employeeNo = Employees.employeeNo order by Sales.totalSales desc limit 1";
+			String sql = "select concat(Employees.forename,SPACE(1),Employees.surname) as 'Name' , Sales.totalSales as 'Total Sales' from Sales join Employees on Sales.employeeNo = Employees.employeeNo order by Sales.totalSales desc limit 1";
 			ResultSet rs = s.executeQuery(sql);
 			List<String[]> rows = new ArrayList<String[]>();
 			
