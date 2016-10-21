@@ -15,7 +15,20 @@
           
 </head>
 <body>
-<h1>Employees per BU</h1>
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+<nav class="teal lighten-1" style="display:table;" role="navigation">
+
+
+    <img src="https://cdn3.iconfinder.com/data/icons/business-people-2/512/Business_Group-512.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
+
+    <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Employees Per BU
+     
+     </span>
+  </nav>
+
 <ul>     
 	<table class="striped">
 	<thead>
