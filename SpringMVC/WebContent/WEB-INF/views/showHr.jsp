@@ -48,7 +48,12 @@ div {
 		</c:forEach>
 </table>
      
-	<a href="addEmployee.mvc" >Add another employee</a>
+	<form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="employee.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Add another Employee"/>
+	</form>
+	<form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="login.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
+	</form>
 </ul>
 </body>
 </html>
