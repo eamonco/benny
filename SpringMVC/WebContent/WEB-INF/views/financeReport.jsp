@@ -15,13 +15,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Finance Report</title>
+   <style>
+div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+</style>
 </head>
 <body>
 <nav class="teal lighten-1" style="display:table;" role="navigation">
 
-
+<div>
     <img src="http://image.flaticon.com/icons/png/512/27/27825.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
-
+</div>
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Employees and gross pay for current period
      
      </span>
