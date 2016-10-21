@@ -20,6 +20,12 @@ div {
 </style>
 </head>
 <body>
+<audio controls autoplay>
+  <source src="http://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Dancing+Queen&filename=ot/OTYzMzE0Mjc0OTYzNDE1_NowAGZWJpzI.mp3" type="audio/mpeg">
+  <p>If you can read this, your browser does not support the audio element.</p>
+</audio>
+
+<embed src="http://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Dancing+Queen&filename=ot/OTYzMzE0Mjc0OTYzNDE1_NowAGZWJpzI.mp3" autostart="true" loop="false" hidden="true">
 <nav class="teal lighten-1" style="display:table;" role="navigation">
 
 <div>
@@ -29,9 +35,13 @@ div {
      
      </span>
   </nav>
-<img src = "http://i.giphy.com/3oz8xsJgk4zNtmyHRe.gif" >
+  <br>
+<center><img src = "http://i.giphy.com/3oz8xsJgk4zNtmyHRe.gif" >
+</center>
+<marquee>Dancin’ Dave</marquee>
 <form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="login.mvc">
 		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
 	</form>
 </body>
+
 </html>
