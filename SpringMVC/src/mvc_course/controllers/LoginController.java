@@ -65,7 +65,7 @@ public class LoginController {
 				
 case 3:
 				
-				loginType = "salesmanager.mvc";
+				loginType = "salesMan.mvc";
 				break;
 				
 case 4:
