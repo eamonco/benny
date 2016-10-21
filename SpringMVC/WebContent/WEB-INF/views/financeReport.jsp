@@ -22,12 +22,12 @@
 
     <img src="http://image.flaticon.com/icons/png/512/27/27825.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
 
-    <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Welcome to the Finance Report
+    <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Employees and gross pay for current period
      
      </span>
   </nav>
 <table class = "striped">
-<tr><th>Employee</th><th>Gross Pay</th></tr>
+<thead><tr><th>Employee</th><th>Gross Pay</th></tr></thead>
 <c:forEach var="row" items="${rows}">
 <tr>
 <td><c:out value="${row[0]}"/></td>
