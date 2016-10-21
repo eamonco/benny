@@ -14,6 +14,13 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
           
+          
+     <style>
+div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+</style>
 	</head>
 	<body>
 	
@@ -24,9 +31,9 @@
 	
 	<nav class="teal lighten-1" style="display:table;" role="navigation">
 
-
+<div>
     <img src="http://icons.iconarchive.com/icons/iconsmind/outline/256/Add-User-icon.png" style="-webkit-filter: invert(100%); " width="50" height="50" alt="" />
-
+</div>
     <span class="text" style="display:table-cell; vertical-align:middle; horizontal-align:left">Add Sales Employee
      
      </span>
