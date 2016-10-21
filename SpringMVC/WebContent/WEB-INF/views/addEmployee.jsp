@@ -106,6 +106,9 @@
       				
 		<input class="waves-effect waves-light btn" type="submit" style="margin-left: 10px" text="Login" />
 	</form>
+	<form  class="col s12" method="post"  style="padding: 5px 10px;name="employee" action="login.mvc">
+		<input type="submit"  class="waves-effect waves-light btn" value="Logout"/>
+	</form>
 	</div>
 	</body>
 </html>
